@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Page</title>
+    <title>Student Registration Form</title>
 </head>
-<body>
-    
+
+<body style="background-color: MistyRose">
+
+    <form action="action_page.php">
+
+        <h1 style="text-align: center;">Student Registration Form</h1>
+        <br>
+        <label type="rollnumber"><span>Roll no : </span><input type="text" size="50" id="rollnumber"
+                name="rollnumber"></label>
+        <br><br>
+
+        <label><span>Student name :</span>
+            <input type="text" size="21" placeholder="First Name"> - <input type="text" size="21"
+                placeholder="Last Name"></label>
+        <br><br>
+
+
+        <label><span>Father's name :</span><input type="text" size="50"></label>
+        <br><br>
+
+        <label><span>Date of birth : </span><input type="text" size="3" placeholder="Day"> - <input type="text" size="3"
+                placeholder="Month">
+            - <input type="text" placeholder="Year" size="8"> - <i><input type="date"></i></label>
+        <br><br>
+
+        <label><span>Mobile no :</span><input type="text" placeholder="+92" size="2"> - <input type="number"></label>
+        <br><br>
+
+        <label>
+            <span>Email id : </span><input type="email" size="50">
+        </label>
+        <br><br>
+
+        <label>
+            <span>Password :</span><input type="password" size="50">
+        </label>
+        <br><br>
+
+        <label>
+            <span>Gender : </span><input type="radio" name="Gender">Male <input type="radio" name="Gender">Female
+        </label>
+        <br><br>
+
+        <label>
+            <span>Department : </span><input type="checkbox"> CSE <input type="checkbox"> IT <input type="checkbox">
+            ECE
+            <input type="checkbox"> Civil <input type="checkbox"> Mech
+        </label>
+        <br><br>
+
+        <label>
+            <span>Course : </span>
+            <select>
+                <option> ---------------------- Select Your Course's ------------------------ </option>
+                <option>Python</option>
+                <option>Node js</option>
+                <option>JavaScript</option>
+                <option>React js</option>
+                <option>PHP</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Express js</option>
+            </select>
+        </label>
+        <br><br>
+        <label><span>Student Photo : </span><input type="file"></label>
+        <br><br>
+
+        <label>
+            <span>City : </span>
+            <select>
+                <option> ---------------------- Select Your City ------------------------</option>
+                <option>Karachi</option>
+                <option>Lahore</option>
+                <option>Faisalabad</option>
+                <option>Rawalpindi</option>
+                <option>Gujranwala</option>
+                <option>Multan</option>
+                <option>Hyderabad</option>
+                <option>Peshawar</option>
+                <option>Quetta</option>
+                <option>Islamabad</option>
+                <option>Sargodha</option>
+                <option>Sialkot</option>
+                <option>Bahawalpur</option>
+                <option>Jhang</option>
+                <option>Sheikhupura</option>
+                <option>Gujrat</option>
+                <option>Sukkur</option>
+                <option>Larkana</option>
+                <option>Sahiwal</option>
+                <option>Okara</option>
+                <option>Rahim Yar Khan</option>
+                <option>Kasur</option>
+                <option>Dera Ghazi Khan</option>
+                <option>Wah Cantonment</option>
+                <option>Mardan</option>
+                <option>Nawabshah</option>
+                <option>Burewala</option>
+                <option>Mingora</option>
+                <option>Hafizabad</option>
+                <option>Chiniot</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label><span>Image : </span><input type="image"></label>
+        <br><br>
+
+        <label><span>Time : </span><input type="time"></label>
+        <br><br>
+
+        <label><span>Week : </span><input type="week"></label>
+        <br><br>
+
+        <label><span>Month : </span><input type="month"></label>
+        <br><br>
+
+        <label><span>Datetime : </span><input type="datetime-local"></label>
+        <br><br>
+
+        <span>Address : </span><input type="text" size="50" height="50%">
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+     </form>
+
 </body>
+
 </html>
