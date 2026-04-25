@@ -7,9 +7,9 @@
     <title>Student Registration Form</title>
 </head>
 
-<body style="width: 100%; height: 100%; padding-left: 500px; margin: 0; padding: 0;">
+<body style="width: 100%; height: 100%;  padding-left: 500px; margin: 0; padding: 0;">
 
-    <div style="background-color:MistyRose; width: 700px;" id="top">
+    <div style="background-color:MistyRose;; width: 700px;" id="top" >
 
         <form action="index.html">
 
@@ -70,20 +70,28 @@
                 <!-- Input Type Radio -->
 
                 <label for="radio">
-                    <span style="color: blue; padding-left: 80px;">Gender : </span></label>
-                <span style="padding-left: 35px;"><input type="radio" name="radio" id="radio">Male <input type="radio"
-                        name="Gender">Female </span>
-                <br><br>
+                    <span style="color: blue; padding-left: 80px;">Gender :</span></label>
+               <span style="padding-left: 38px;"><input type="radio" id="radio" name="gender" value="Male"></span>
+               <label for="radio">Male</label>
+               <input type="radio" id="female" name="gender" value="Female">
+               <label for="female">Female</label>
+               <br><br>
 
                 <!-- Input Type Checkbox -->
 
-                <label for="chechbox"><span style="color: blue; padding-left: 80px;">Department : </span></label>
-                <span style="padding-left: 10px;">
-                    <input type="checkbox"> CSE
-                    <input type="checkbox" id="chechbox" name="chechbox"> IT
-                    <input type="checkbox">ECE
-                    <input type="checkbox"> Civil
-                    <input type="checkbox"> Mech </span>
+                <label for="checkbox">
+                    <span style="color: blue; padding-left: 80px;">Department :</span></label>
+                    <span style="padding-left: 10px;">
+                <input type="checkbox" id="checkbox" name="checkbox" value="CSE">
+                <label for="checkbox">CSE</label></span>
+                <input type="checkbox" id="checkbox-1" name="checkbox-1" value="IT">
+                <label for="checkbox-1">IT</label>
+                <input type="checkbox" id="checkbox-2" name="checkbox-2" value="ECE">
+                <label for="checkbox-2">ECE</label>
+                <input type="checkbox" id="checkbox-3" name="checkbox-3" value="Civil">
+                <label for="checkbox-3">Civil</label>
+                <input type="checkbox" id="checkbox-4" name="checkbox-4" value="Mech">
+                <label for="checkbox-4">Mech</label>
                 <br><br>
 
 
@@ -150,12 +158,6 @@
                 </label>
                 <br><br>
 
-                <!-- Input Type Image -->
-
-                <label for="img"><span style="color: blue; padding-left: 80px;">Image : </span></label>
-                <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48" id="img" name="img">
-                <br><br>
-
                 <!-- Input Type Time -->
 
                 <label for="time"><span style="color: blue; padding-left: 80px;">Time : </span></label>
@@ -193,25 +195,6 @@
                 <label for="vol"><span style="color: blue; padding-left: 80px;">Volume (between 0 and 50):
                     </span></label>
                 <input type="range" id="vol" name="vol" min="0" max="50">
-                <br><br>
-
-                <!-- Input Type Tel -->
-
-                <label for="phone"><span style="color: blue; padding-left: 80px;">Enter your phone number :
-                    </span></label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                <br><br>
-
-                <!-- Input Type Url -->
-
-                <label for="homepage"><span style="color: blue; padding-left: 80px;">Add your homepage : </span></label>
-                <span style="padding-left: 35px;"><input type="url" id="homepage" name="homepage"></span>
-                <br><br>
-
-                <!-- Input Type Search -->
-
-                <label for="gsearch"><span style="color: blue; padding-left: 80px;">Search Google : </span></label>
-                <span style="padding-left: 70px;"><input type="search" id="gsearch" name="gsearch"></span>
                 <br><br>
 
                 <!-- Input Type Submit -->
